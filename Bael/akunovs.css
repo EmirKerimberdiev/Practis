@@ -1,0 +1,45 @@
+.column {
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logos {
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+.logoq {
+    width: 30px;
+    height: 15px;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link {
+    width: 27px;
+    height: 23px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.links {
+    display: flex;
+    
+    
+}

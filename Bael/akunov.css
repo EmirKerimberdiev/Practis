@@ -1,0 +1,58 @@
+h1 {
+    display: none;
+}
+@media screen and (max-width:576px)
+{
+    .Mobile {
+        display: block;
+color: rgb(229, 233, 243);
+    }
+    body {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:760px)
+{
+    .Tablet {
+        display: block;
+color: rgb(229, 233, 243);
+    }
+    body {
+        background-color: rgb(56, 42, 165);
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:992px)
+{
+    .Laptop {
+        display: block;
+color: rgb(229, 233, 243);
+    }
+    body {
+        background-color: rgb(172, 206, 0);
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1100px)
+{
+    .Desktop {
+        display: block;
+color: rgb(229, 233, 243);
+    }
+    body {
+        background-color: rgb(170, 19, 165);
+    }
+}
+
+@media screen and (min-width:1100px) and ( max-width:1000000px)
+{
+    .Huge {
+        display: block;
+color: rgb(229, 233, 243);
+    }
+    body {
+        background-color: rgb(9, 3, 3);
+    }
+}
+

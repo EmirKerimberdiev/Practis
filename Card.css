@@ -1,0 +1,69 @@
+body{
+    margin: 0 auto;
+    background: repeating-linear-gradient(rgb(106, 44, 0), rgb(134, 81, 0), rgb(192, 61, 0));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 136, 0);
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px black;
+    transition-duration: 0.8s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 19px;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 15px black;
+}
+.img{
+    margin-top: 10px;
+    
+   
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: url(https://assets.hvmag.com/2023/09/pumpkin-world-AdobeStock_626050040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.line{
+    margin: 40px;
+    width: 120px;
+    height: 15px;
+    background-color: white;
+
+    position: relative;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px white;
+}
+@keyframes line {
+    0%{
+        left: -120px;
+    }
+    100%{
+        left: 120px;
+    }
+}

@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto;
+}
+.column {
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.line{
+    width: 100%;
+    height: 60px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    margin-left: 30px;
+    width: 85px;
+    height: 35px;
+    background-color: lightblue;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    width: 85px;
+    height: 35px;
+    background-color: lightblue;    
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.line2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.img{
+    max-width: 100%;
+    height: 580px;
+    background-image: url(https://img.freepik.com/free-vector/halloween-background-in-flat-design_52683-43845.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+}
+.cards{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    padding: 30px;
+    width: 200px;
+    height: 350px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+.img1{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-image: url(https://assets.hvmag.com/2023/09/pumpkin-world-AdobeStock_626050040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.img2{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(255, 51, 0);
+    border: 5px solid;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line3{
+    width: 100%;
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

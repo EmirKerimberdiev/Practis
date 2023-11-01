@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Гибкий макет с помощью Flexbox</title>
+  <style>
+    body {
+      background:url(./galaxy.avif) ;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: left;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #002147;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .intro {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    ul {
+      list-style-type: disc;
+      color: #ccc;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-left: 20px;
+    }
+
+    ul li {
+      color: #ddd;
+    }
+
+    p {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: #fff;">Гибкий макет с помощью Flexbox</h1>
+    <p class="intro">
+      <strong>Flexbox (Flexible Box)</strong> - это мощный модуль CSS, предназначенный для легкого и управляемого размещения элементов на веб-странице внутри контейнера. Он предоставляет набор ключевых свойств и тегов для создания гибких макетов.
+    </p>
+    <h2>Основные свойства Flexbox:</h2>
+    <ul>
+      <li><strong>display: flex;</strong>: Это свойство применяется к контейнеру и превращает его детей в гибкие элементы, способные автоматически распределяться внутри контейнера.</li>
+      <li><strong>flex-direction</strong>: Определяет направление, в котором элементы размещаются в контейнере. Значения включают <em>row</em> (горизонтально), <em>column</em> (вертикально), <em>row-reverse</em> (горизонтально в обратном порядке) и <em>column-reverse</em> (вертикально в обратном порядке).</li>
+      <li><strong>flex-wrap</strong>: Управляет переносом элементов на новую строку или их оставлением на одной строке при недостатке места в контейнере. Значения: <em>nowrap</em> (без переноса), <em>wrap</em> (с переносом) и <em>wrap-reverse</em> (перенос в обратном порядке).</li>
+      <li><strong>justify-content</strong>: Контролирует выравнивание элементов вдоль главной оси контейнера. Возможные значения включают <em>flex-start</em>, <em>flex-end</em>, <em>center</em>, <em>space-between</em> и <em>space-around</em>.</li>
+      <li><strong>align-items</strong>: Определяет выравнивание элементов вдоль поперечной оси контейнера. Варианты: <em>flex-start</em>, <em>flex-end</em>, <em>center</em>, <em>baseline</em> и <em>stretch</em>.</li>
+      <li><strong>align-content</strong>: Если в контейнере есть несколько строк элементов, этот тег управляет их распределением вдоль поперечной оси. Возможные значения: <em>flex-start</em>, <em>flex-end</em>, <em>center</em>, <em>space-between</em>, <em>space-around</em> и <em>stretch</em>.</li>
+    </ul>
+    <p>
+      Используя эти свойства и теги, вы можете легко создавать красивые и гибкие макеты на вашей веб-странице без необходимости использовать сложные таблицы или сложное позиционирование элементов.
+    </p>
+  </div>
+</body>
+</html>

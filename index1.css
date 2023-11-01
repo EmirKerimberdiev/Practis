@@ -1,0 +1,57 @@
+.lline{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 6, 6);
+    border: 3px solid;
+}
+.oo{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 255, 64);
+    border: 3px solid;
+}
+.link{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 3, 3);
+    border: 3px solid;
+}
+.link{
+    height: 50px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    border: 3px solid;
+}
+.link{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    border: 3px solid;
+}
+.link{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(245, 0, 0, 0.862);
+    border: 3px solid;
+}
+.side{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(247, 255, 12, 0.862);
+    border: 3px solid;
+}
+.ooP{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(22, 218, 100, 0.862);
+    border: 3px solid;
+}
+.pp{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(14, 64, 230, 0.862);
+    border: 3px solid;
+}
